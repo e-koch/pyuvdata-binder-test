@@ -1,0 +1,12 @@
+name: pyuvdata-test
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scipy
+  - astropy
+  - h5py
+  - matplotlib
+  - python-casacore # Want to be able to read/write MS files.
+  - pip:
+    - https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pyuvdata.git@refs/pull/995/head
