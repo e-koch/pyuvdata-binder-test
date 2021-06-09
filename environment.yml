@@ -9,5 +9,5 @@ dependencies:
   - matplotlib
   - python-casacore # Want to be able to read/write MS files.
   - pip:
-    - https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pyuvdata.git
+    - git+https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pyuvdata#egg=pyuvdata
   #  - https://github.com/RadioAstronomySoftwareGroup/pyuvdata/pyuvdata.git@refs/pull/995/head
